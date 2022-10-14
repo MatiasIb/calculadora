@@ -1,0 +1,38 @@
+.container{
+    background-color: #544F4E;
+}
+
+.superior{
+    background-color: #E4C8C1;
+}
+
+.col-3, .col-6 {
+    text-align: center;
+}
+
+.col-6 button {
+    width: 80%;
+}
+.col-12{
+    text-align: center;
+}
+.col-12 input {
+    height: 80px;
+    margin: 30px 0px;
+    width: 84%;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: end;
+}
+
+button {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.col-12 h5 {
+    margin-top: 10px;
+    color: white;
+}
