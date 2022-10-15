@@ -8,10 +8,16 @@
 
 .col-3, .col-6 {
     text-align: center;
+    
+}
+
+.col-3 button {
+    border: 2px solid black;
 }
 
 .col-6 button {
     width: 80%;
+    border: 2px solid black;
 }
 .col-12{
     text-align: center;
@@ -35,4 +41,8 @@ button {
 .col-12 h5 {
     margin-top: 10px;
     color: white;
+}
+
+#dividir, #multiplicar, #restar, #sumar, #igual {
+    background-color: #FC912B;
 }
