@@ -1,5 +1,11 @@
+html, body {
+    height: 100%;
+}
+
 .container{
     background-color: #544F4E;
+    max-width: 800px;
+    height: 100%;
 }
 
 .superior{
@@ -46,3 +52,11 @@ button {
 #dividir, #multiplicar, #restar, #sumar, #igual {
     background-color: #FC912B;
 }
+
+@media only screen and (max-width: 600px) {
+    .row *{
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
+  
